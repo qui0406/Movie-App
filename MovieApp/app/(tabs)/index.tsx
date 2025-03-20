@@ -3,8 +3,8 @@ import {Link} from 'expo-router';
 
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl text-dark-200 font-bold">Welcome home</Text>
+    <View className="items-center justify-center flex-1">
+      <Text className="text-5xl font-bold text-dark-200">Welcome home hehe</Text>
       <Link href="/movie/avangers">Avangers movie</Link>
 
     </View>
